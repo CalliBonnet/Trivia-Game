@@ -4,25 +4,25 @@
 const quizQuestions = [
     {
         question: "What Disney Princess lived with 7 other people? ", 
-        chocies: ["Sally Blue", "Calli Bonnet", "Snow White", "Betty White"],
+        chocies: ["Cinderella", "Jasmine", "Snow White", "Ariel"],
         correctAnswer: "Snow White"
     }, 
 
     {
         question: "What Disney Princess lost a glass slipper?", 
-        chocies: ["Soccer", "Snow White", "Football", "Cinderella"],
+        chocies: ["Moana", "Snow White", "Jasmine", "Cinderella"],
         correctAnswer: "Cinderella"
     }, 
 
     {
         question: "What Disney Princess lived under the sea?", 
-        chocies: ["Ariel", "Cinderella", "Snow White", "Scottsdale"],
+        chocies: ["Ariel", "Cinderella", "Snow White", "Aurora"],
         correctAnswer: "Ariel"
     },
 
     {
         question: "What Disney Princess has a pet tiger?", 
-        chocies: ["Jasmine", "Ariel", "Cinderella", "Scottsdale"],
+        chocies: ["Jasmine", "Ariel", "Cinderella", "Belle"],
         correctAnswer: "Jasmine"
     },
 
