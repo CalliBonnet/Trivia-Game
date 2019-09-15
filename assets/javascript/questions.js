@@ -23,13 +23,13 @@ const quizQuestions = [
 ];
 
 const congratsImages = [
-    `./assets/images/congrats1`, 
-    `./assets/images/congrats2`, 
-    `./assets/images/congrats3`
+    './assets/images/congrats1.jpg', 
+    './assets/images/congrats2.jpg', 
+    './assets/images/congrats3.jpg'
 ];
 
 const oopsImages = [
-    `./assets/images/oops1`, 
-    `./assets/images/oops2`, 
-    `./assets/images/oops3`
+    './assets/images/oops1.jpg', 
+    './assets/images/oops2.jpg',
+    './assets/images/oops3.jpg'
 ];
