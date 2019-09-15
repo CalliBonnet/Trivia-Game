@@ -5,87 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Disney Trivia!</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- This is the bootstrap link  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- This is adding a background image -->
-    <style>
-        body {
-            background-image: url(assets/images/round.png)
-        }
-    </style>
+    <!-- this is the css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
+
+    <title>My Triva Game! </title>
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12" id="main-col">
-                <div class="jumbotron" id="jumbotron-col">
-                    <h1 class="display-4">Disney Trivia!</h1>
-                    <p class="lead">Answer the following questions before time runs out!</p>
-                    <hr class="my-4">
-                    <div class="row">
-                        <div class="col-12">
-                            <br>
-                            <p>As Cinderella ran gracefully away from her man, she lost something VERY expensive. What did she lose?</p>
-                            <form>
-                                <input type="checkbox" name="enter name here" value="enter value here"> Her gucci wallet. 
-                                <br>
-                                <input type="checkbox" name="enter name here" value="enter value here"> Her pride. 
-                                <br>
-                                <input type="checkbox" name="enter name here" value="enter value here"> Her Christian Louboutin glass slipper. 
-                                <br>
-                                <input type="checkbox" name="enter name here" value="enter value here"> Her 35 carat diamond necklace. 
-                            </form>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-12">
-                            <br>
-                            <p>Which princess lived in a small cottage in the middle of the woods with 7 men?</p>
-                            <form>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> Moana
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> Pocahontas
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> Ariel
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> Snnow White
-                                </form>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-12">
-                            <br>
-                            <p>Fill in the blank. Moana loved the____. </p>
-                            <form>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> creepy light creators in the sea. 
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> to explore the sea with her chicken and shape-shifting friend. 
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> to stay on land in the village. 
-                                    <br>
-                                    <input type="checkbox" name="enter name here" value="enter value here"> to lay on the beach and tan. 
-                                </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- This is the end of the main row -->
+        <div class="jumbotron">
+            <h1>Triva Game</h1>
+            <button class="btn btn-primary" id="startGameButton">Start Game</button>
         </div>
 
-        <!-- This is the final div for the conotainer -->
+        <h2 id="time"></h2>
+        <div id="game"></div>
+
     </div>
 
+
+
+    <!-- this is the jquery link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- this is the js link  -->
+    <script src="./assets/javascript/questions.js"></script>
+    <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,7 @@
-#main-col {
-    background-color: pink; 
-
-}; 
+/* this is making the choices look more like buttons  */
+.chocie {
+    border:  1px solid lightblue; 
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+};
