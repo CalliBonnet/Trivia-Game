@@ -1,3 +1,8 @@
+/* This is the whole background image  */
+
+body {
+    background-image: url("../images/dot-grid.png");
+}
 /* this is making the choices look more like buttons  */
 .chocie {
     border:  1px solid lightblue; 
@@ -5,3 +10,15 @@
     border-radius: 4px;
     cursor: pointer;
 };
+
+
+.Img {
+    width:15px; 
+    height: 25px; 
+}
+
+
+#preload-image {
+    width:15px; 
+    height: 25px; 
+}
